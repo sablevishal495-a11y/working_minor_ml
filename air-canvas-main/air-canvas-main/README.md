@@ -38,5 +38,6 @@ python -m pip install mediapipe
 - If installation fails with wheel or DLL errors, try a fresh virtual environment or use Python 3.10/3.11 (64-bit). Copy the full traceback and open an issue so I can help.
 
 ---
-Made by: Air Canvas helper
+Made by: Vishal Sable
+
 
