@@ -8,7 +8,7 @@ except ModuleNotFoundError:
 
 try:
     import numpy as np
-except ModuleNotFoundError:
+except ModuleNotFoundError: 
     print("Error: 'numpy' package not found.\nInstall it with: python -m pip install -r requirements.txt")
     raise
 
