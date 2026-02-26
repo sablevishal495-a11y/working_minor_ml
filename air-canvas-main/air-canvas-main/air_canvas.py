@@ -142,6 +142,7 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+# output in results.md
 
 
 
