@@ -29,7 +29,7 @@ Controls:
 - Index + Middle fingers up: Select color (tap color bar at top)
 - `C`: Clear canvas
 - `Q`: Quit
-
+ 
 ## Troubleshooting
 - If you see `ModuleNotFoundError: No module named 'mediapipe'`, run:
 ```powershell
@@ -39,6 +39,7 @@ python -m pip install mediapipe
 
 ---
 Made by: Vishal Sable
+
 
 
 
