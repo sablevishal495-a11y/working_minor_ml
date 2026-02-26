@@ -4,7 +4,7 @@ try:
     import cv2
 except ModuleNotFoundError:
     print("Error: 'opencv-python' (cv2) package not found.\nInstall it with: python -m pip install -r requirements.txt")
-    raise
+    raise 
 
 try:
     import numpy as np
@@ -142,7 +142,6 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
-# output in results.md
 
 
 
