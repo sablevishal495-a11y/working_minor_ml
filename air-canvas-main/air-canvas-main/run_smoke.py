@@ -11,7 +11,7 @@ mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(max_num_hands=1)
 print('Hands created')
   
-# Try opening the camera for one frame
+# Try opening the camera for one frame 
 cap = cv2.VideoCapture(0)
 if not cap.isOpened():
     print('Warning: Camera could not be opened (no camera or permission issue)')
