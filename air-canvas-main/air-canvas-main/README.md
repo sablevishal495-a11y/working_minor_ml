@@ -5,7 +5,7 @@ Simple hand-tracking "air drawing" app using MediaPipe, OpenCV, and NumPy.
 ## Requirements
 - Python 3.8 - 3.11 (64-bit recommended)
 - Windows 10/11
-
+ 
 ## Setup (Powershell) 
 ```powershell  
 # Optional: create and activate a virtual environment
