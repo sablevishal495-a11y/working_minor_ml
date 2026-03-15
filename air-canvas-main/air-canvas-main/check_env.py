@@ -25,7 +25,7 @@ def check_packages():
         return False
     print("All required packages are installed: cv2, numpy, mediapipe")
     return True
-
+ 
 if __name__ == '__main__':
     ok_ver = check_python_version()
     ok_pkgs = check_packages()
