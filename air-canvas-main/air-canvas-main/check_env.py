@@ -13,7 +13,7 @@ def check_python_version():
     print(f"Python version OK: {major}.{minor}.{sys.version_info[2]}")
     return True
 
-def check_packages():
+def check_packages(): 
     pkgs = ["cv2", "numpy", "mediapipe"]
     missing = []
     for p in pkgs:
