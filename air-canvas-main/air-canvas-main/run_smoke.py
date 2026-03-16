@@ -8,7 +8,7 @@ print('mediapipe', mp.__version__)
 
 # Try to create a hands detector
 mp_hands = mp.solutions.hands  
-hands = mp_hands.Hands(max_num_hands=1)
+hands = mp_hands.Hands(max_num_hands=1) 
 print('Hands created')
   
 # Try opening the camera for one frame 
