@@ -13,7 +13,7 @@ except ModuleNotFoundError:
     raise
  
 try:
-    import mediapipe as mp
+    import mediapipe as mp 
 except ModuleNotFoundError:
     print("Error: 'mediapipe' package not found.\nInstall it with: python -m pip install -r requirements.txt")
     raise
