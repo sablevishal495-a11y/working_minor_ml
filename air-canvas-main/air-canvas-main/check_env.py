@@ -16,7 +16,7 @@ def check_python_version():
 def check_packages(): 
     pkgs = ["cv2", "numpy", "mediapipe"]
     missing = []
-    for p in pkgs:
+    for p in pkgs: 
         if importlib_util.find_spec(p) is None:
             missing.append(p)
     if missing:
