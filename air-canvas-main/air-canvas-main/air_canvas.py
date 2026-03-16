@@ -11,7 +11,7 @@ try:
 except ModuleNotFoundError: 
     print("Error: 'numpy' package not found.\nInstall it with: python -m pip install -r requirements.txt")
     raise
- 
+  
 try:
     import mediapipe as mp 
 except ModuleNotFoundError:
