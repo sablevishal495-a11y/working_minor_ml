@@ -89,7 +89,7 @@ while True:
             y = int(hand.landmark[8].y * h)
 
             # Selection mode
-            if index_up and middle_up:
+            if index_up and middle_up: 
                 mode = "SELECT"
                 prev_x, prev_y = 0, 0
 
