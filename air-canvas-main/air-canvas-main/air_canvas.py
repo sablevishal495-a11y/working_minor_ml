@@ -1,7 +1,7 @@
 import sys
  
 try: 
-    import cv2
+    import cv2 
 except ModuleNotFoundError:
     print("Error: 'opencv-python' (cv2) package not found.\nInstall it with: python -m pip install -r requirements.txt")
     raise 
