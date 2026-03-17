@@ -76,7 +76,7 @@ while True:
     rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     results = hands.process(rgb)
 
-    mode = "NONE"
+    mode = "NONE" 
 
     if results.multi_hand_landmarks:
         for hand in results.multi_hand_landmarks:
