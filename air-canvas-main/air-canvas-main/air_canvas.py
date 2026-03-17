@@ -78,7 +78,7 @@ while True:
 
     mode = "NONE" 
 
-    if results.multi_hand_landmarks:
+    if results.multi_hand_landmarks: 
         for hand in results.multi_hand_landmarks:
 
             mp_draw.draw_landmarks(frame, hand, mp_hands.HAND_CONNECTIONS)
