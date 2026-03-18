@@ -50,7 +50,7 @@ def fingers_up(hand):
     fingers.append(hand.landmark[12].y < hand.landmark[10].y)  # middle
     return fingers
 
-def draw_palette(img): 
+def draw_palette(img):
     h, w, _ = img.shape
     box_w = w // len(colors)
     for i, col in enumerate(colors):
