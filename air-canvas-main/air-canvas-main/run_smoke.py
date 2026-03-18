@@ -3,7 +3,7 @@ import numpy as np
 import mediapipe as mp
 
 print('cv2', cv2.__version__)
-print('numpy', np.__version__)
+print('numpy', np.__version__) 
 print('mediapipe', mp.__version__)
 
 # Try to create a hands detector
