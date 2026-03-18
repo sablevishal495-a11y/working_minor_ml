@@ -30,5 +30,5 @@ if __name__ == '__main__':
     ok_ver = check_python_version()
     ok_pkgs = check_packages()
     if not ok_ver or not ok_pkgs:
-        sys.exit(1)
+        sys.exit(1)   
     print("Environment looks good. You can run: python air_canvas.py")
